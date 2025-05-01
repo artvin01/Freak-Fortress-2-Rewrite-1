@@ -128,7 +128,7 @@
 				"library"	"server"
 				"linux"		"@_ZN9CTFPlayer10RegenThinkEv"
 				"linux64"	"@_ZN9CTFPlayer10RegenThinkEv"
-				"windows"	"\x55\x8B\xEC\x83\xEC\x7C\x56\x8B\xF1"
+				"windows"	"\x55\x8B\xEC\x83\xEC\x7C\x56\x8B\xF1\x8B\x06"
 				"windows64"	"\x40\x53\x48\x81\xEC\x30\x01\x00\x00\x48\x8B\x01"
 			}
 			"CTFPlayer::TeamFortress_SetSpeed"
@@ -162,17 +162,17 @@
 		{
 			"CBaseEntity::ChangeTeam"
 			{
-				"linux"		"97"
-				"linux64"	"97"
-				"windows"	"96"
-				"windows64"	"96"
+				"linux"		"98"
+				"linux64"	"98"
+				"windows"	"97"
+				"windows64"	"97"
 			}
 			"CBasePlayer::ForceRespawn"
 			{
-				"linux"		"337"
-				"linux64"	"337"
-				"windows"	"336"
-				"windows64"	"336"
+				"linux"		"338"
+				"linux64"	"338"
+				"windows"	"337"
+				"windows64"	"337"
 			}
 			"CTeamplayRoundBasedRules::RoundRespawn"
 			{
@@ -190,17 +190,17 @@
 			}
 			"CTeam::AddPlayer"
 			{
-				"linux"		"209"
-				"linux64"	"209"
-				"windows"	"208"
-				"windows64"	"208"
-			}
-			"CTeam::RemovePlayer"
-			{
 				"linux"		"210"
 				"linux64"	"210"
 				"windows"	"209"
 				"windows64"	"209"
+			}
+			"CTeam::RemovePlayer"
+			{
+				"linux"		"211"
+				"linux64"	"211"
+				"windows"	"210"
+				"windows64"	"210"
 			}
 			"CTFGameRules::GetCaptureValueForPlayer"
 			{
@@ -211,17 +211,17 @@
 			}
 			"CTFWeaponBase::ApplyPostHitEffects"
 			{
-				"linux"		"424"
-				"linux64"	"424"
-				"windows"	"417"
-				"windows64"	"417"
+				"linux"		"426"
+				"linux64"	"426"
+				"windows"	"419"
+				"windows64"	"419"
 			}
 			"CTFWeaponBase::ApplyOnInjuredAttributes"
 			{
-				"linux"		"425"
-				"linux64"	"425"
-				"windows"	"418"
-				"windows64"	"418"
+				"linux"		"427"
+				"linux64"	"427"
+				"windows"	"420"
+				"windows64"	"420"
 			}
 			"m_bitsDamageType"
 			{
@@ -235,8 +235,8 @@
 			}
 			"CTFPlayer::m_iBlastJumpState"
 			{
-				"linux"		"8584"
-				"windows"	"8584"
+				"linux"		"8585"
+				"windows"	"8585"
 			}
 		}
 		"Functions"
